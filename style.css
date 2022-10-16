@@ -25,7 +25,7 @@ html {
     height: auto;
   }
 .header {
-    background: url('../img/background-header.png') no-repeat center top;
+    background: url('./img/background-header.png') no-repeat center top / cover;
 }
 .logo-img{
     /* margin: 50px 0 0 165px; */
@@ -86,12 +86,12 @@ height: 17.11px;
 .Buttom {
     font-weight: 700;
     font-size: 14px;
-    Line height: 19.07px;
+    height: 19px;
     text-transform: uppercase;
     display: block;
     text-align: center;
     line-height: 47px;
     width: 157px;
     height: 47px;
-    background-color:#FF7400;
+    background-color: #FF7400;
 }
