@@ -11,9 +11,11 @@ html {
     margin: 0;
     padding: 0;
     font-weight: normal;
+
   }
   body {
     width: 1440px;
+    /* height: 800px; */
   }
   
   ol, ul {
@@ -28,9 +30,9 @@ html {
     background: url('./img/background-header.png') no-repeat center top / cover;
 }
 .logo-img{
-    /* margin: 50px 0 0 165px; */
+    /* margin: 50px 0 0 165px ; */
 }  
-.linemenu {
+.nav {
     font-family: 'open-sans';
     display: flex;
     align-items: center;
@@ -86,7 +88,7 @@ height: 17.11px;
 .Buttom {
     font-weight: 700;
     font-size: 14px;
-    height: 19px;
+    line-height: 19px;
     text-transform: uppercase;
     display: block;
     text-align: center;
@@ -94,4 +96,109 @@ height: 17.11px;
     width: 157px;
     height: 47px;
     background-color: #FF7400;
+}
+.text-header{
+    color: #D67E35;
+    margin: 204px 0 0 175px;
+    text-align: center;
+    width: 481px;
+}
+.welcome{
+    font-family: 'Tinos';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57.5px;
+}
+.restaurant{
+    font-family: 'Tinos';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+}
+.restaurant-title{
+    margin-top: 12px;
+    padding-bottom: 21px;
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.restaurant-title:before,
+.restaurant-title:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 61px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+.restaurant-title:before{
+    margin-left: -100%;
+    left: -8px;
+}
+.restaurant-title:after{
+    margin-right: -100%;
+    right: -8px;
+}
+.Buttom-menu{
+    display: block;
+    margin: auto;
+    background-color: #FF7400;
+    width: 137px;
+    height: 47px;
+    text-align: center;
+    font-family: 'open sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 124px;
+
+}
+
+.xc{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0);
+}
+.intro {
+    margin-top: -65px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.introimg{
+margin: 48px 0 4px 0;
+}
+.intro-title{
+    font-style: 'tinos';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #BC9060;
+
+}
+.intro-content{
+    margin-top: 20px;
+    color: #656363;
+    font-style: 'tinos';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+.intro-block{
+    display: block;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px rgba(0,0,0,0.1);
+    width: 349px;
+    height: 328px;
+    
+
 }
