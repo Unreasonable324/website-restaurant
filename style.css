@@ -44,8 +44,9 @@ html {
     display: flex;
     margin-left: 268px;
     font-weight: 700;
-font-size: 14px;
+    font-size: 14px;
 }
+
 .menu li {
     margin-right: 21px;
 }
@@ -54,6 +55,12 @@ font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
+}
+.nav1{
+    transition: color 0.3s linear;
+}
+.nav1:hover{
+    color: rgba(255, 0, 0, 0.623);
 }
 .logo-basket, .logo-phone {
     filter: invert(100%);
@@ -73,6 +80,11 @@ height: 17.11px;
     font-size: 18px;
 
 }
+.telephone{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
 .logo-basket {
     margin-left: 15px;
     margin-right: 15px;
@@ -84,6 +96,10 @@ height: 17.11px;
     align-items: center;
     margin-right: 34px;
 
+}
+.btn{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .Buttom {
     font-weight: 700;
