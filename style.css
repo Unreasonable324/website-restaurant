@@ -297,3 +297,44 @@ span{
     z-index: -2;
     margin-left: 340px;
 }
+.holiday-lanch{
+    display: flex;
+    width: 100% ;
+    margin-top: 182px;
+    background: url(./img/bghl.png) no-repeat center top / cover;
+}
+.contanier-hl{
+    margin:0 165px 0 165px;
+}
+.holiday{
+    font-family: 'tinos';
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #D67E34;
+    padding-top: 80px;
+}
+.lanch{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 84px;
+}
+.btn-hl{
+    display: block;
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    font-family: 'open sans';
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    margin-right: 40px;
+    margin-top: 155px;
+}
