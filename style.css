@@ -480,3 +480,25 @@ span{
     margin-bottom: 104px;
 
 }
+.gallery-of-dishes{
+    margin: 0 165px 0 165px;
+}
+.gallery-of-dishes-txt{
+    margin-top: 101px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+}
+.gallery-of-dishes-img-main{
+    /* display: flex;
+    justify-content: space-evenly   ;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */ */
+}
+.gallery-of-dishes-img{
+    display: flex;
+    justify-content: center;
+}
