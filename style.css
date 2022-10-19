@@ -492,13 +492,27 @@ span{
     font-size: 54px;
     line-height: 62px;
 }
-.gallery-of-dishes-img-main{
-    /* display: flex;
-    justify-content: space-evenly   ;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */ */
-}
+
 .gallery-of-dishes-img{
     display: flex;
     justify-content: center;
+}
+.cook{
+    margin: 100px 165px 0 165px;
+}
+.cook-txt{
+    margin-bottom: 107px;
+    text-align: center;
+   font-family: 'Tinos';
+   font-size: 54px;
+   line-height: 62px;
+   font-weight: 400;
+}
+.cook-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.footer{
+    width: 100%;
 }
