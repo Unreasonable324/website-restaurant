@@ -212,7 +212,7 @@ margin: 48px 0 4px 0;
     display: block;
     background-color: #fff;
     box-shadow: 10px 10px 40px 20px rgba(0,0,0,0.1);
-    width: 349px;
+    width: 30%;
     height: 328px;
 }
 .our-story{
@@ -384,7 +384,7 @@ span{
     text-align: right;
 }
 .menu2{
-    background: url(/img/menu2.png) no-repeat center top / cover;
+    background: url(img/menu2.png) no-repeat center top / cover;
 }
 .submenu{
     margin: 0px 165px 0 165px;
@@ -396,7 +396,7 @@ span{
 .white{
     
     display: block;
-    width: 300px;
+    width: 30%;
     height: 510px;
     background-color: #fff;
     padding-top: 80px;
@@ -445,4 +445,38 @@ span{
     line-height: 21px;
     font-weight: 400;
     font-size: 16px;
+}
+.feedback{
+    background-color: #E5E5E5;
+
+}
+.fbbg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 165px 0 165px;
+    padding-top: 104px;
+   
+}
+.feedback-txt{
+    text-align: center;
+    font-family: 'open sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.feedback-img{
+    margin-top: 30px;
+}
+.fbinitials{
+    margin-top: 20px;
+    text-align: center;
+}
+.navigationbtn{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 104px;
+
 }
