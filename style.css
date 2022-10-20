@@ -1,32 +1,32 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-  }
+}
   
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
-  }
+}
   
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
+}
 
-  }
-  body {
+body {
     width: 1440px;
     width: 100%;
-    /* height: 800px; */
-  }
+}
   
-  ol, ul {
+ol, ul {
     list-style: none;
-  }
+}
   
-  img {
+img {
     max-width: 100%;
     height: auto;
-  }
+}
+
 .header {
     background: url('./img/background-header.png') no-repeat center top / cover;
 }
@@ -39,6 +39,7 @@ html {
     margin-left:165px ;
     padding-top: 50px;
 }
+
 .menu{
     display: flex;
     margin-left: 268px;
@@ -49,57 +50,64 @@ html {
 .menu li {
     margin-right: 21px;
 }
+
 .menu li a {
 
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
 }
+
 .nav1{
     transition: color 0.3s linear;
 }
+
 .nav1:hover{
     color: rgba(255, 0, 0, 0.623);
 }
+
 .logo-basket, .logo-phone {
     filter: invert(100%);
     width: 19.98px;
-height: 17.11px;
+    height: 17.11px;
 }
-.massage {
 
+.massage {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
 }
+
 .tel{
     text-decoration: none;
     margin-right: 45px;
     font-weight: 700;
     font-size: 18px;
-
 }
+
 .telephone{
     text-decoration: none;
     color: #FFFFFF;
-
 }
+
 .logo-basket {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .basket{
     border-right: 1px solid #FFFFFF;
     height: 51px;
     display: flex;
     align-items: center;
     margin-right: 34px;
-
 }
+
 .btn{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .Buttom {
     font-weight: 700;
     font-size: 14px;
@@ -112,27 +120,32 @@ height: 17.11px;
     height: 47px;
     background-color: #FF7400;
 }
+
 .brgrmenu{
     display: none;
 }
+
 .text-header{
     color: #D67E35;
     margin: 204px 0 0 175px;
     text-align: center;
     width: 481px;
 }
+
 .welcome{
     font-family: 'Tinos';
     font-size: 50px;
     font-weight: 400;
     line-height: 57.5px;
 }
+
 .restaurant{
     font-family: 'Tinos';
     font-size: 80px;
     font-weight: 400;
     line-height: 92px;
 }
+
 .restaurant-title{
     margin-top: 12px;
     padding-bottom: 21px;
@@ -142,8 +155,8 @@ height: 17.11px;
     line-height: 24.5px;
     text-transform: uppercase;
     color: #fff;
-
 }
+
 .restaurant-title:before,
 .restaurant-title:after{
     content: "";
@@ -154,14 +167,17 @@ height: 17.11px;
     background-color: #fff;
     position: relative;
 }
+
 .restaurant-title:before{
     margin-left: -100%;
     left: -8px;
 }
+
 .restaurant-title:after{
     margin-right: -100%;
     right: -8px;
 }
+
 .Buttom-menu{
     display: block;
     margin: auto;
@@ -175,13 +191,13 @@ height: 17.11px;
     line-height: 47px;
     color: #fff;
     margin-bottom: 124px;
-
 }
 
 .xc{
     margin-top: 50px;
     color: rgba(255, 255, 255, 0);
 }
+
 .intro {
     margin-top: -65px;
     display: flex;
@@ -191,17 +207,19 @@ height: 17.11px;
     margin-left: 165px;
     margin-right: 165px;
 }
+
 .introimg{
-margin: 48px 0 4px 0;
+    margin: 48px 0 4px 0;
 }
+
 .intro-title{
     font-family: 'tinos';
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
     color: #BC9060;
-
 }
+
 .intro-content{
     margin-top: 20px;
     color: #656363;
@@ -209,8 +227,8 @@ margin: 48px 0 4px 0;
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
-
 }
+
 .intro-block{
     display: block;
     background-color: #fff;
@@ -218,30 +236,34 @@ margin: 48px 0 4px 0;
     width: 30%;
     height: 328px;
 }
+
 .our-story{
     margin: 165px 165px 0 165px;
     display: flex;
 }
+
 .history{
     width: 444px;
     width: 50%;
-
 }
+
 .stat-history{
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 }
+
 .text-history{
     text-align: center;
 }
+
 .title-text-history{
     font-family: 'tinos';
     font-size: 54px;
     font-weight: 400;
     line-height: 62px;
 }
+
 .subtitle-text-history{
     margin-top: 21px;
     margin-bottom: 50px;
@@ -251,27 +273,32 @@ margin: 48px 0 4px 0;
     font-weight: 400;
     line-height: 22px;
 }
+
 .stat-history{
     font-family: 'open sans';
 }
+
 .num{
     font-weight: 400;
     font-size: 40px;
     line-height: 54.5px;
     color: #D67E34;
 }
+
 .stat{
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
 }
+
 span{
     color: #D67E34;
 }
+
 .history-img{
-    position: relative;
-    
+    position: relative;    
 }
+
 .history-img3{
     position: absolute;
     z-index: -1;
@@ -279,39 +306,44 @@ span{
     height: 430px;
     margin-left: 250px;
     margin-top: -50px;
-
 }
+
 .history-img1{
     position: absolute;
     z-index: 0;
     width: 233px;
     height: 300px;
-    margin-left: 125px;
-    
+    margin-left: 125px;  
 }
+
 .history-img1copy{
     display: none;
 }
+
 .history-img2{
     position: absolute;
     z-index: 0;
     margin-left: 360px;
     margin-top: 150px;
 }
+
 .history-img4{
     position: relative;
     z-index: -2;
     margin-left: 340px;
 }
+
 .holiday-lanch{
     display: flex;
     width: 100% ;
     margin-top: 182px;
     background: url(./img/bghl.png) no-repeat center top / cover;
 }
+
 .contanier-hl{
     margin:0 165px 0 165px;
 }
+
 .holiday{
     font-family: 'tinos';
     font-size: 52px;
@@ -320,6 +352,7 @@ span{
     color: #D67E34;
     padding-top: 80px;
 }
+
 .lanch{
     font-family: 'open sans';
     font-weight: 700;
@@ -329,6 +362,7 @@ span{
     margin-top: 20px;
     margin-bottom: 84px;
 }
+
 .btn-hl{
     display: block;
     width: 157px;
@@ -348,6 +382,7 @@ span{
 .menu1{
     margin: 0 165px 152px 165px;
 }
+
 .textmenu{
     margin-top: 132px;
     font-family: 'tinos';
@@ -356,22 +391,27 @@ span{
     font-weight: 400;
     text-align: center;
 }
+
 .menuflex{
     display: flex;
     margin-top: 140px;
 }
+
 .menu1-img{
     display: flex;
     margin-right: 30px;
 }
+
 .b{
     margin-right: 30px;
 }
+
 .menu1-img-column{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .menu1-text{
     display: flex;
     flex-direction: column;
@@ -381,26 +421,29 @@ span{
     line-height: 30px;
     font-family: 'tinos';
 }
+
 .price{
     display: flex;
     justify-content: space-between;
 }
+
 .price-price{
     color: #FF7400;
     text-align: right;
 }
+
 .menu2{
     background: url(img/menu2.png) no-repeat center top / cover;
 }
+
 .submenu{
     margin: 0px 165px 0 165px;
     padding: 298px 0 226px 0;
     display: flex;
     justify-content: space-between;
-
 }
+
 .white{
-    
     display: block;
     width: 30%;
     height: 510px;
@@ -410,13 +453,15 @@ span{
     align-content: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.878);
 }
+
 .imgmenu2{
     position: relative;   
-    
 }
+
 .price420{
     display: none;
 }
+
 .imgmenu2420{
     display: flex;
     color: #fff;
@@ -424,6 +469,7 @@ span{
     position: absolute;
     z-index: 1;
 }
+
 .gamb{
     margin-top: 16px;
     font-family: 'tinos';
@@ -431,6 +477,7 @@ span{
     line-height: 30px;
     font-weight: 400;
 }
+
 .max{
     margin-top: 17px;
     font-family: 'open-sans';
@@ -439,6 +486,7 @@ span{
     line-height: 21.7px;
     margin-bottom: 20px;
 }
+
 .menu2-white-btn{
     margin: 0 auto; 
     width: 220px;
@@ -447,6 +495,7 @@ span{
     background-color: #D67E34;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
+
 .zakaz{
     color: #fff;
     text-decoration: none;
@@ -455,18 +504,19 @@ span{
     font-weight: 400;
     font-size: 16px;
 }
+
 .feedback{
     background-color: #E5E5E5;
-
 }
+
 .fbbg{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 165px 0 165px;
     padding-top: 104px;
-   
 }
+
 .feedback-txt{
     text-align: center;
     font-family: 'open sans';
@@ -475,23 +525,27 @@ span{
     font-size: 20px;
     line-height: 27px;
 }
+
 .feedback-img{
     margin-top: 30px;
 }
+
 .fbinitials{
     margin-top: 20px;
     text-align: center;
 }
+
 .navigationbtn{
     margin-top: 26px;
     display: flex;
     align-items: center;
     margin-bottom: 104px;
-
 }
+
 .gallery-of-dishes{
     margin: 0 165px 0 165px;
 }
+
 .gallery-of-dishes-txt{
     margin-top: 101px;
     margin-bottom: 60px;
@@ -506,22 +560,26 @@ span{
     display: flex;
     justify-content: center;
 }
+
 .cook{
     margin: 100px 165px 0 165px;
 }
+
 .cook-txt{
     margin-bottom: 107px;
     text-align: center;
-   font-family: 'Tinos';
-   font-size: 54px;
-   line-height: 62px;
-   font-weight: 400;
+    font-family: 'Tinos';
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 400;
 }
+
 .cook-img{
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
 }
+
 .footer{
     width: 100%;
 }
@@ -534,11 +592,13 @@ span{
         display: none;
     }
 }
+
 @media (max-width: 1340px){
     .menu{
         margin-left: 100px;
     }
 }
+
 @media (max-width: 1250px){
     .imgmenu2420{
         margin: 12% 13% ;
@@ -553,6 +613,7 @@ span{
         margin-bottom: 20px;
     }
 }
+
 @media (max-width: 1132px){
     .our-story{
         flex-direction: column;
@@ -646,6 +707,7 @@ span{
         justify-content: space-between;
     }
 }
+
 @media (max-width: 1000px){
     .text-header{
         background: linear-gradient(to top, #000000 22%, #000000b3 98%, #000000 22%);
@@ -654,12 +716,14 @@ span{
         margin: 0 auto;
     }
 }
+
 @media (max-width: 1000px){
     .intro-block {
         width: 60%;
         height: auto;
     }
 }
+
 @media (max-width: 772px){
     .white {
         width: 100%;
@@ -671,11 +735,13 @@ span{
     .our-story{margin: 165px 25px;
     } 
 }
+
 @media (max-width: 430px){
     .welcome {
         font-size: 330%
     }
 }
+
 @media (max-width: 555px){
     .submenu,
     .fbbg,
@@ -693,9 +759,10 @@ span{
 
     }
 }
+
 @media (max-width: 425px){
     .intro-block {
         width: 80%;
     }
 }
-
+/* THE END */
