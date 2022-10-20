@@ -112,6 +112,9 @@ height: 17.11px;
     height: 47px;
     background-color: #FF7400;
 }
+.brgrmenu{
+    display: none;
+}
 .text-header{
     color: #D67E35;
     margin: 204px 0 0 175px;
@@ -286,6 +289,9 @@ span{
     margin-left: 125px;
     
 }
+.history-img1copy{
+    display: none;
+}
 .history-img2{
     position: absolute;
     z-index: 0;
@@ -408,10 +414,13 @@ span{
     position: relative;   
     
 }
+.price420{
+    display: none;
+}
 .imgmenu2420{
     display: flex;
     color: #fff;
-    margin: 125px 0 0 200px ;
+    margin: 10.5% 13% ;
     position: absolute;
     z-index: 1;
 }
@@ -516,3 +525,177 @@ span{
 .footer{
     width: 100%;
 }
+
+@media (max-width: 1340px){
+    .imgmenu2420{
+        margin: 11% 13% ;
+}
+    .menu1{
+        display: none;
+    }
+}
+@media (max-width: 1340px){
+    .menu{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1250px){
+    .imgmenu2420{
+        margin: 12% 13% ;
+}
+    .intro{
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-block{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1132px){
+    .our-story{
+        flex-direction: column;
+        align-items: center;
+    }
+    .history-img1copy{
+        display:block;
+    }
+    .history-img3,
+    .history-img2,
+    .history-img1copy{
+        padding: 10px 0px;
+        position: relative;
+        margin: 0;
+        width: 261px;
+        height: 261px;
+    }
+    .history-img1,
+    .history-img4{
+        display: none;
+    }
+    .history-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery-of-dishes-img,
+    .cook-img {
+        flex-direction: column;
+    }
+    .holiday-lanch {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .lanch {
+        margin-bottom: 0;
+    }
+    .btn-hl {
+        margin: 50px 0px;
+    }
+    .imgmenu2420{
+    display: none;
+    }
+    .subtitle-text-history {
+        margin: 0;
+    }
+    .text-header {
+        margin: 0;
+        width: auto;
+    }
+    .submenu {
+        flex-direction: column;
+    }
+    .white {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .price420{
+        display: block;
+        width: 70px;
+        height: 30px;
+        border-radius: 15px;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'open sans';
+        line-height: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0 auto;
+        background-color: #D67E34;
+        box-shadow: 5px 5px 10px rgb(0 0 0 / 25%);
+        margin-bottom: 5px;
+    }
+    .max {
+        margin: 5px 0;
+        font-size: 24px;
+    }
+    .menulist,
+    .basket,
+    .tel,
+    .Buttom{
+        display: none;
+    }
+    .brgrmenu{
+        display: flex;
+    }
+    .nav {
+        margin: 0 auto;
+        margin: 0px 20px;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1000px){
+    .text-header{
+        background: linear-gradient(to top, #000000 22%, #000000b3 98%, #000000 22%);
+    }
+    .introimg {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1000px){
+    .intro-block {
+        width: 60%;
+        height: auto;
+    }
+}
+@media (max-width: 772px){
+    .white {
+        width: 100%;
+        
+    }
+    .history{
+        width: 100%
+    }
+    .our-story{margin: 165px 25px;
+    } 
+}
+@media (max-width: 430px){
+    .welcome {
+        font-size: 330%
+    }
+}
+@media (max-width: 555px){
+    .submenu,
+    .fbbg,
+    .gallery-of-dishes  {
+        margin: 0px 25px;
+    }
+    .cook {
+        margin: 100px 25px 0 25px;
+    }
+    .history-img3,
+    .history-img2,
+    .history-img1copy{
+        width: 499px;
+        height: auto;
+
+    }
+}
+@media (max-width: 425px){
+    .intro-block {
+        width: 80%;
+    }
+}
+
