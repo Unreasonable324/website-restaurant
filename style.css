@@ -63,7 +63,7 @@ img {
 }
 
 .nav1:hover{
-    color: rgba(255, 0, 0, 0.623);
+    color: #ffaa00;
 }
 
 .logo-basket, .logo-phone {
@@ -128,19 +128,25 @@ img {
     display: block;
 }
 .burger-slide a {
+    width: 80%;
+    display: inline-block;
     padding: 5px 0px;
+    border-bottom: 2px solid #FF7400;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #FF7400;
 }
 .burger-slide{
-    background-color: #FF7400;
-    width: auto;
-    height: auto;
+    background-color: #5e5e5e;
+    border-top: 2px solid #FF7400;
+    border-radius: 4%;
+    width: 100%;
+    height: 100%;
     text-align: center;
     position: absolute;
-    margin-top: 22px;
-    margin-left: -11px;
+    font-size: 300%;
+    margin-top: 60%;
 }
+
 button{
     border: none;
     outline: none;
